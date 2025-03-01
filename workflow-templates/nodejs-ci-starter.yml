@@ -2,8 +2,8 @@ name: Organization NodeJS CI
 
 on:
    push:
-     branches:
-       - main
+     branches: [ $default-branch ] 
+       
        
 
 jobs:
